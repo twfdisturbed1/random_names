@@ -10,7 +10,7 @@ class TestCodes < Minitest::Test
         assert_equal(Array, people().class)
     end
     def test_if_array_is_has_elements
-    assert_equal(["bill", "sally", "Jim", "Mary", "Mike"], people())
+    refute_equal(["bill", "sally", "jim", "mary", "mike"], people())
     end
 end
 
