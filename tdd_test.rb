@@ -12,5 +12,6 @@ class TestCodes < Minitest::Test
     def test_if_array_is_has_elements
     refute_equal(["bill", "sally", "jim", "mary", "mike"], people())
     end
+    
 end
 
